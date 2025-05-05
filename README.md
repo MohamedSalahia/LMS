@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -59,3 +60,40 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+=======
+# 📚 Educational Center Management System
+
+A scalable and modular **Single Page Application (SPA)** for managing educational institutions, including Quranic centers, academic programs, and training institutes.
+
+## 🔧 Built With
+
+- **Laravel** – Backend framework  
+- **Livewire** – Reactive components for Laravel  
+- **Blade** – Templating engine  
+- **MySQL** – Database  
+- **Tailwind CSS** – Styling  
+- **Alpine.js** – Lightweight interactivity
+
+## ✨ Features
+
+- Student registration & management  
+- Class scheduling & teacher assignment  
+- Attendance tracking  
+- Progress monitoring  
+- Multi-level class support  
+- Dynamic dashboards  
+- Arabic language support (RTL-ready)  
+- Role-based access (Admin, Teacher, Student)
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
+composer install
+cp .env.example .env
+php artisan key:generate
+# Set your DB credentials in .env
+php artisan migrate --seed
+php artisan serve
+>>>>>>> be635d9381c1deaadd561027a8ca6af715dbc790
