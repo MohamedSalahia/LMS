@@ -6,7 +6,7 @@ Description:
 Version: 1.5
 
 Main Font    : Tajawal
-Main Color   : #3F9AA4
+Main Color   : #1e3e7a
 
 -------------------------------------
 
@@ -251,7 +251,7 @@ input {
 }
 
 .bg-theme {
-    background-color: #3F9AA4;
+    background-color: #1e3e7a;
 }
 
 .color-yellow .bg-theme {
@@ -315,7 +315,7 @@ input {
 }
 
 .shadow.theme::after {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     content: "";
     height: 100%;
     right: 0;
@@ -332,7 +332,7 @@ input {
 }
 
 .shadow.theme-hard::after {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     content: "";
     height: 100%;
     right: 0;
@@ -486,9 +486,9 @@ input {
 
 .btn.btn-light.effect:hover,
 .btn.btn-light.effect:focus {
-    background-color: #3F9AA4;
+    background-color: #1e3e7a;
     color: #ffffff !important;
-    border: 2px solid #3F9AA4;
+    border: 2px solid #1e3e7a;
 }
 
 .btn.btn-light.border {
@@ -510,7 +510,7 @@ input {
 }
 
 .bg-dark {
-    background: #000 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
 }
 
 .bg-gradient {
@@ -519,21 +519,21 @@ input {
 
 .btn-theme,
 .button-theme {
-    background-color: #3F9AA4;
+    background-color: #1e3e7a;
     color: #fff !important;
-    border: 2px solid #3F9AA4;
+    border: 2px solid #1e3e7a;
 }
 
 .btn-theme.border {
     background-color: transparent;
-    color: #3F9AA4 !important;
-    border: 2px solid #3F9AA4;
+    color: #1e3e7a !important;
+    border: 2px solid #1e3e7a;
 }
 
 .btn-theme.border:hover {
-    background-color: #3F9AA4;
+    background-color: #1e3e7a;
     color: #ffffff !important;
-    border: 2px solid #3F9AA4;
+    border: 2px solid #1e3e7a;
 }
 
 .btn-theme.effect:hover,
@@ -578,7 +578,7 @@ input {
 }
 
 .btn.border.btn-light.standard::before {
-    color: #3F9AA4;
+    color: #1e3e7a;
     content: "\f061";
     font-family: "Font Awesome 5 Free";
     height: 100%;
@@ -608,7 +608,7 @@ a.btn-icon {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    color: #3F9AA4;
+    color: #1e3e7a;
     display: inline-block;
     height: 50px;
     line-height: 50px;
@@ -709,8 +709,8 @@ nav.bootsnav.navbar-default.info-topbar.active-full ul li a {
 .attr-nav > a.btn-theme.effect:hover,
 .attr-nav > a.btn-theme.effect,
 .attr-nav > a.btn-theme.effect:focus {
-    background: #3F9AA4 none repeat scroll 100% 0;
-    border: 2px solid #3F9AA4;
+    background: #1e3e7a none repeat scroll 100% 0;
+    border: 2px solid #1e3e7a;
     color: #ffffff !important;
 }
 
@@ -734,7 +734,7 @@ nav.bootsnav.navbar-default.info-topbar.sticked ul li a {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    color: #3F9AA4;
+    color: #1e3e7a;
     display: inline-block;
     font-size: 14px;
     height: 40px;
@@ -769,7 +769,7 @@ nav.navbar.bootsnav.navbar-transparent.pad-top {
 }
 
 .top-bar-area .user-login a {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #01b5dd none repeat scroll 100% 0;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -857,7 +857,7 @@ nav.navbar.bootsnav.navbar-transparent.pad-top {
 }
 
 .top-bar-area .menu li a:hover {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .top-bar-area.bg-theme .menu li a:hover {
@@ -922,7 +922,7 @@ nav.navbar.bootsnav.navbar-transparent.pad-top {
     content: "";
     height: 100px;
     width: 800px;
-    background: #3F9AA4;
+    background: #1e3e7a;
     right: 0;
     z-index: -1;
     transform: skew(-25deg);
@@ -957,7 +957,7 @@ nav.navbar.bootsnav.navbar-transparent.pad-top {
 }
 
 .site-heading h2::before {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -969,7 +969,7 @@ nav.navbar.bootsnav.navbar-transparent.pad-top {
 }
 
 .site-heading h2::after {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -1008,7 +1008,7 @@ nav.navbar.bootsnav.navbar-transparent.pad-top {
 }
 
 .breadcrumb-area .breadcrumb li i {
-    color: #3F9AA4;
+    color: #1e3e7a;
     margin-left: 3px;
 }
 
@@ -1035,7 +1035,7 @@ nav.navbar.bootsnav.navbar-transparent.pad-top {
 }
 
 .breadcrumb > li + li::before {
-    color: #3F9AA4;
+    color: #1e3e7a;
     content: "\f111";
     font-family: "Font Awesome 5 Free";
     font-size: 8px;
@@ -1329,7 +1329,7 @@ body, .banner-area,
 }
 
 .banner-area.text-normal span {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .banner-area.text-normal.less-paragraph h1 {
@@ -1382,7 +1382,7 @@ body, .banner-area,
 }
 
 .banner-area form button {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     border: medium none;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -1488,7 +1488,7 @@ body, .banner-area,
 .banner-area.standard .thumb .join i {
     display: inline-block;
     font-size: 60px;
-    color: #3F9AA4;
+    color: #1e3e7a;
     margin-left: 15px;
 }
 
@@ -1748,7 +1748,7 @@ body, .banner-area,
 
 .about-area .info h1::before,
 .about-area .info h2::before {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -1760,7 +1760,7 @@ body, .banner-area,
 
 .about-area .info h1::after,
 .about-area .info h2::after {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -1787,7 +1787,7 @@ body, .banner-area,
 
 .about-area .info h1 span,
 .about-area .info h2 span {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .about-area .info h4 {
@@ -2198,7 +2198,7 @@ body, .banner-area,
     -webkit-box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.06);
     -o-box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.06);
     box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.06);
-    color: #3F9AA4;
+    color: #fff;
     display: inline-block;
     font-size: 50px;
     height: 80px;
@@ -2294,7 +2294,7 @@ body, .banner-area,
 }
 
 .pricing-area .pricing-item.active .pricing-header {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
 }
 
 .pricing-area .pricing-item h4 {
@@ -2343,7 +2343,7 @@ body, .banner-area,
 }
 
 .pricing-simple li.pricing-header span.badge {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     border-radius: inherit;
     font-family: "Tajawal", sans-serif;
     font-size: 12px;
@@ -2382,7 +2382,7 @@ body, .banner-area,
 }
 
 .search-course form button {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     border: medium none;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -2429,7 +2429,7 @@ body, .banner-area,
 }
 
 .featured-courses-area .info > h4 {
-    color: #3F9AA4;
+    color: #1e3e7a;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -2468,7 +2468,7 @@ body, .banner-area,
 }
 
 .featured-courses-area .bottom-info .item .rating i {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .featured-courses-area .bottom-info .item span {
@@ -2496,7 +2496,7 @@ body, .banner-area,
 }
 
 .featured-courses-area .info ul li i {
-    color: #3F9AA4;
+    color: #1e3e7a;
     margin-left: 10px;
 }
 
@@ -2570,7 +2570,7 @@ body, .banner-area,
 .featured-courses-area .featured-courses-carousel .owl-nav .owl-prev:hover,
 .featured-courses-area .featured-courses-carousel .owl-nav .owl-next:hover {
     background: #ffffff none repeat scroll 100% 0;
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .featured-courses-area .featured-courses-carousel .owl-nav .owl-next {
@@ -2605,7 +2605,7 @@ body, .banner-area,
 }
 
 .featured-courses-area .thumb .overlay a i {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -2724,7 +2724,7 @@ body, .banner-area,
 }
 
 .home-sidebar .sidebar-item .item i {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .home-sidebar .sidebar-item .item .rating {
@@ -2743,7 +2743,7 @@ body, .banner-area,
 }
 
 .home-sidebar .sidebar-item .meta a:hover {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .home-sidebar .sidebar-item h4 {
@@ -2754,7 +2754,7 @@ body, .banner-area,
 }
 
 .home-sidebar .sidebar-item a:hover {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .home-sidebar .sidebar-item .meta span {
@@ -2774,7 +2774,7 @@ body, .banner-area,
 }
 
 .more:hover {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .home-sidebar .sidebar-item {
@@ -2834,7 +2834,7 @@ body, .banner-area,
     display: block;
     width: 80px;
     height: 80px;
-    background: #3F9AA4 repeat scroll 100% 0;
+    background: #1e3e7a repeat scroll 100% 0;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -2853,7 +2853,7 @@ body, .banner-area,
     display: block;
     width: 80px;
     height: 80px;
-    background: #3F9AA4 repeat scroll 100% 0;
+    background: #1e3e7a repeat scroll 100% 0;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -2870,7 +2870,7 @@ body, .banner-area,
 }
 
 .video-play-button:hover:after {
-    background-color: #3F9AA4;
+    background-color: #1e3e7a;
 }
 
 @-webkit-keyframes pulse-border {
@@ -2921,7 +2921,7 @@ body, .banner-area,
 }
 
 .video-area h2::after {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -2931,7 +2931,7 @@ body, .banner-area,
 }
 
 .video-area h2::before {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -3051,7 +3051,7 @@ body, .banner-area,
 }
 
 .popular-courses-items .author-info .others .rating i {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .popular-courses-items .author-info .others a {
@@ -3097,7 +3097,7 @@ body, .banner-area,
 }
 
 .popular-courses-items .info h4 a:hover {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .popular-courses-items .info p {
@@ -3140,7 +3140,7 @@ body, .banner-area,
 }
 
 .popular-courses .bottom-info a {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     display: inline-block;
     float: right;
     font-size: 12px;
@@ -3231,7 +3231,7 @@ body, .banner-area,
 .popular-courses .popular-courses-items .owl-nav .owl-prev:hover,
 .popular-courses .popular-courses-items .owl-nav .owl-next:hover {
     background: #ffffff none repeat scroll 100% 0;
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .popular-courses .popular-courses-items .owl-nav .owl-next {
@@ -3240,7 +3240,7 @@ body, .banner-area,
 }
 
 .popular-courses-items .thumb .best-seller-badge {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     font-family: "Tajawal", sans-serif;
     font-size: 12px;
     font-weight: 500;
@@ -3259,9 +3259,9 @@ body, .banner-area,
 }
 
 .popular-courses-items .thumb .best-seller-badge::before {
-    border-bottom: 23px solid #3F9AA4;
+    border-bottom: 23px solid #1e3e7a;
     border-left: 23px solid transparent;
-    border-top: 23px solid #3F9AA4;
+    border-top: 23px solid #1e3e7a;
     bottom: 0;
     content: "";
     position: absolute;
@@ -3348,7 +3348,7 @@ body, .banner-area,
 }
 
 .course-details-area .course-details-info .course-meta .item i {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .course-details-area .course-details-info .title h2 {
@@ -3369,7 +3369,7 @@ body, .banner-area,
 }
 
 .course-details-area .tab-info .nav-pills li.active a {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     border: 1px solid transparent;
     color: #002147;
 }
@@ -3432,7 +3432,7 @@ body, .banner-area,
 .course-details-area .tab-content ul li i {
     margin-left: 5px;
     min-width: 15px;
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .course-list-items .panel-group {
@@ -3517,7 +3517,7 @@ body, .banner-area,
 }
 
 .course-details-area .advisor-list-items .item span {
-    color: #3F9AA4;
+    color: #1e3e7a;
     display: block;
     font-family: "Tajawal", sans-serif;
     font-weight: 500;
@@ -3582,7 +3582,7 @@ body, .banner-area,
 }
 
 .course-details-area .course-rating-list ul li .rating-bar {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     height: 3px;
 }
 
@@ -3623,7 +3623,7 @@ body, .banner-area,
 }
 
 .course-details-area .sidebar .sidebar-item .title h4::before {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -3633,7 +3633,7 @@ body, .banner-area,
 }
 
 .course-details-area .sidebar .sidebar-item .title h4::after {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -3675,7 +3675,7 @@ body, .banner-area,
 }
 
 .course-details-area .sidebar .sidebar-item form input[type="submit"]:hover {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     border: none;
 }
 
@@ -3768,7 +3768,7 @@ body, .banner-area,
 }
 
 .course-details-area .sidebar .sidebar-item.recent-post .item .rating i {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 
@@ -3815,7 +3815,7 @@ body, .banner-area,
 }
 
 .top-cat-items .item a:hover:after {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     opacity: 0.6;
 }
 
@@ -3993,7 +3993,7 @@ body, .banner-area,
 }
 
 .fun-fact .icon i {
-    color: #3F9AA4;
+    color: #fff;
     display: inline-block;
     font-size: 50px;
     margin-bottom: 20px;
@@ -4050,7 +4050,7 @@ body, .banner-area,
 }
 
 .advisor-item .info-box .info-title span {
-    color: #3F9AA4;
+    color: #1e3e7a;
     font-family: "Tajawal", sans-serif;
     font-weight: 500;
     text-transform: uppercase;
@@ -4159,7 +4159,7 @@ body, .banner-area,
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .advisor-item:hover .overlay {
@@ -4223,7 +4223,7 @@ body, .banner-area,
 }
 
 .advisor-items .advisor-item .social::after {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     content: "";
     height: 2px;
     right: 50%;
@@ -4337,7 +4337,7 @@ body, .banner-area,
 .advisor-area .advisor-carousel-solid .owl-nav .owl-prev:hover,
 .advisor-area .advisor-carousel-solid .owl-nav .owl-next:hover {
     background: #ffffff none repeat scroll 100% 0;
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .advisor-area .advisor-carousel .owl-nav .owl-next,
@@ -4369,7 +4369,7 @@ body, .banner-area,
 }
 
 .adviros-details-area .thumb .desc span {
-    color: #3F9AA4;
+    color: #1e3e7a;
     font-family: "Tajawal", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -4407,7 +4407,7 @@ body, .banner-area,
 }
 
 .adviros-details-area .info .nav-pills li.active a {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     border: 1px solid transparent;
     color: #002147;
 }
@@ -4455,7 +4455,7 @@ body, .banner-area,
 }
 
 .adviros-details-area .info table a:hover {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .adviros-details-area .tab-content ul {
@@ -4472,7 +4472,7 @@ body, .banner-area,
 .adviros-details-area .tab-content .course-tab-items .nav-pills li.active a {
     background: transparent none repeat scroll 100% 0;
     border: medium none;
-    color: #3F9AA4;
+    color: #1e3e7a;
     margin: 0;
     padding: 0;
 }
@@ -4592,7 +4592,7 @@ body, .banner-area,
 }
 
 .edit-profile .update-info button {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     border: medium none;
     box-shadow: inherit;
     font-family: "Tajawal", sans-serif;
@@ -4612,7 +4612,7 @@ body, .banner-area,
 }
 
 .edit-profile .update-pass button {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     border: medium none;
     font-family: "Tajawal", sans-serif;
     font-weight: 600;
@@ -4700,7 +4700,7 @@ body, .banner-area,
 .event-items .item .info h2 a:hover,
 .event-items .item .info h3 a:hover,
 .event-items .item .info h4 a:hover {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .event-area .event-items .item .info .price {
@@ -4759,7 +4759,7 @@ body, .banner-area,
 }
 
 .event-area .event-items .item .thumb .date h4 {
-    color: #3F9AA4;
+    color: #1e3e7a;
     font-size: 14px;
     margin: 0;
     text-transform: uppercase;
@@ -4850,7 +4850,7 @@ body, .banner-area,
 .event-area .event-items.event-carousel .owl-nav .owl-prev:hover,
 .event-area .event-items.event-carousel .owl-nav .owl-next:hover {
     background: #ffffff none repeat scroll 100% 0;
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .event-area .event-items.event-carousel .owl-nav .owl-next {
@@ -4916,7 +4916,7 @@ body, .banner-area,
 }
 
 .clients-review-carousel .item .info span {
-    color: #3F9AA4;
+    color: #1e3e7a;
     font-family: "Tajawal", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -4971,7 +4971,7 @@ body, .banner-area,
 .testimonials-area .clients-review-carousel .owl-nav .owl-prev:hover,
 .testimonials-area .clients-review-carousel .owl-nav .owl-next:hover {
     background: #ffffff none repeat scroll 100% 0;
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .testimonials-area .clients-review-carousel .owl-nav .owl-next {
@@ -5034,7 +5034,7 @@ body, .banner-area,
 }
 
 .reg-area .reg-form button {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     border: medium none;
     box-shadow: inherit;
     font-family: "Tajawal", sans-serif;
@@ -5502,7 +5502,7 @@ body, .banner-area,
 }
 
 .blog-area .blog-items .thumb .date h4 {
-    color: #3F9AA4;
+    color: #1e3e7a;
     font-size: 14px;
     margin: 0;
 }
@@ -5525,7 +5525,7 @@ body, .banner-area,
 }
 
 .blog-area .blog-items .item a:hover {
-    color: #3F9AA4 !important;
+    color: #1e3e7a !important;
 }
 
 
@@ -5539,7 +5539,7 @@ body, .banner-area,
 }
 
 .blog-area .pagi-area .pagination li.active a {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     border: 1px solid transparent;
     color: #ffffff;
 }
@@ -5578,7 +5578,7 @@ body, .banner-area,
 }
 
 .blog-area .sidebar .sidebar-item .title h4::before {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -5588,7 +5588,7 @@ body, .banner-area,
 }
 
 .blog-area .sidebar .sidebar-item .title h4::after {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     bottom: 0;
     content: "";
     height: 2px;
@@ -5630,7 +5630,7 @@ body, .banner-area,
 }
 
 .blog-area .sidebar .sidebar-item form input[type="submit"]:hover {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     border: medium none;
 }
 
@@ -5736,7 +5736,7 @@ body, .banner-area,
 }
 
 .blog-area .sidebar .sidebar-item.recent-post .item .rating i {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 .blog-area .sidebar .sidebar-item.archives a {
@@ -6132,7 +6132,7 @@ body, .banner-area,
 }
 
 .comments-form button {
-    background-color: #3F9AA4;
+    background-color: #1e3e7a;
     border: 1px solid transparent;
     color: #002147;
     display: inline-block;
@@ -6240,7 +6240,7 @@ body, .banner-area,
 }
 
 .subscribe-area .form form button {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     border: medium none;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -6299,7 +6299,7 @@ body, .banner-area,
 }
 
 .contact-info-area .contact-info .item i {
-    color: #3F9AA4;
+    color: #1e3e7a;
     display: block;
     font-size: 60px;
     text-align: center;
@@ -6367,7 +6367,7 @@ body, .banner-area,
 }
 
 .contact-info-area .maps-form button {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     border: medium none;
     color: #ffffff;
     font-family: "Tajawal", sans-serif;
@@ -6570,7 +6570,7 @@ form.white-popup-block label input {
 }
 
 form.white-popup-block button[type="submit"] {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     border: medium none;
     display: inline-block;
     font-family: "Tajawal", sans-serif;
@@ -6695,7 +6695,7 @@ footer .subscribe form button {
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
-    color: #3F9AA4;
+    color: #1e3e7a;
     font-size: 20px;
     min-height: 40px;
     padding: 0 30px;
@@ -6710,7 +6710,7 @@ footer .subscribe form .input-group {
 }
 
 footer.bg-light .subscribe form button {
-    background: #3F9AA4 none repeat scroll 100% 0;
+    background: #1e3e7a none repeat scroll 100% 0;
     color: #ffffff;
 }
 
@@ -6731,7 +6731,7 @@ footer .f-item.address i {
 
 footer.bg-light .f-item.address i {
     border: 1px solid #e7e7e7;
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 footer.bg-fixed .f-item.address i {
@@ -6859,7 +6859,7 @@ footer.bg-fixed .f-item.recent-post .meta-title {
 }
 
 footer .f-item.recent-post li a:hover {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 footer .f-item.recent-post li a span {
@@ -6978,7 +6978,7 @@ footer .social li a:hover {
 footer.bg-fixed .social li a:hover {
     border: 1px solid transparent;
     background-color: #ffffff;
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 footer .social {
@@ -7042,7 +7042,7 @@ footer.bg-light .f-item.link li a::before {
 }
 
 footer .f-item.link li a:hover {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 
@@ -7062,7 +7062,7 @@ footer .f-item.twitter-widget .twitter-content a {
 }
 
 footer .f-item.twitter-widget .twitter-content a:hover {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 footer .f-item.twitter-widget .twitter-context {
@@ -7071,7 +7071,7 @@ footer .f-item.twitter-widget .twitter-context {
 }
 
 footer .f-item.twitter-widget .twitter-context i {
-    color: #3F9AA4;
+    color: #1e3e7a;
     margin-left: 3px;
 }
 
@@ -7139,11 +7139,11 @@ footer .f-item.twitter-widget .twitter-item:last-child {
 }
 
 .footer-bottom .link li a:hover {
-    color: #3F9AA4;
+    color: #1e3e7a;
 }
 
 footer .footer-bottom p a {
-    color: #3F9AA4;
+    color: #00b5dd;
     text-transform: capitalize;
     font-weight: 600;
 }

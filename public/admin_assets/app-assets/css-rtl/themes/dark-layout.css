@@ -27,7 +27,7 @@ body.dark-layout {
 }
 
 .dark-layout a:hover {
-  color : #0E8C9A;
+  color : #00b5dd;
 }
 
 .dark-layout label {
@@ -281,7 +281,7 @@ body.dark-layout {
 }
 
 .dark-layout .main-menu .collapse-toggle-icon {
-  color : #0E8C9A !important;
+  color : #00b5dd !important;
 }
 
 .dark-layout .ps__thumb-x, .dark-layout .ps__thumb-y {
@@ -306,6 +306,14 @@ body.dark-layout {
 
 .dark-layout .main-menu-content .navigation-main li a {
   color : #D0D2D6 !important;
+}
+
+.dark-layout .breadcrumb-wrapper .breadcrumb li a {
+    color : #00b5dd !important;
+}
+
+.dark-layout footer p span a {
+    color : #00b5dd !important;
 }
 
 .dark-layout .main-menu-content .navigation-main li ul .open > a, .dark-layout .main-menu-content .navigation-main li ul .sidebar-group-active > a {
@@ -443,7 +451,7 @@ body.dark-layout {
 }
 
 .dark-layout .btn-group-toggle label[class*='btn-outline-'] {
-  color : #0E8C9A !important;
+  color : #00b5dd !important;
 }
 
 .dark-layout .dropdown-menu {
@@ -461,12 +469,12 @@ body.dark-layout {
 
 .dark-layout .dropdown-menu .dropdown-item:hover, .dark-layout .dropdown-menu .dropdown-item:focus {
   background : rgba(14, 140, 154, 0.12);
-  color : #0E8C9A;
+  color : #00b5dd;
 }
 
 .dark-layout .dropdown-menu .dropdown-item:active, .dark-layout .dropdown-menu .dropdown-item.active {
   color : #FFFFFF;
-  background-color : #0E8C9A;
+  background-color : #00b5dd;
 }
 
 .dark-layout .dropdown-menu .dropdown-item.disabled, .dark-layout .dropdown-menu .dropdown-item:disabled {
@@ -498,7 +506,7 @@ body.dark-layout {
 }
 
 .dark-layout .pagination:not([class*='pagination-']) .page-item.active .page-link {
-  background-color : #0E8C9A;
+  background-color : #00b5dd;
 }
 
 .dark-layout .pagination:not([class*='pagination-']) .page-item.active .page-link:hover {
@@ -511,7 +519,7 @@ body.dark-layout {
 }
 
 .dark-layout .pagination:not([class*='pagination-']) .page-item .page-link:hover {
-  color : #0E8C9A;
+  color : #00b5dd;
 }
 
 .dark-layout .pagination:not([class*='pagination-']) .page-item.prev-item .page-link:hover, .dark-layout .pagination:not([class*='pagination-']) .page-item.next-item .page-link:hover {
@@ -560,7 +568,7 @@ body.dark-layout {
 
 .dark-layout .nav-tabs .nav-item .nav-link.active, .dark-layout .nav-pills .nav-item .nav-link.active, .dark-layout .nav-tabs.nav-justified .nav-item .nav-link.active {
   background-color : #283046;
-  color : #0E8C9A;
+  color : #00b5dd;
 }
 
 .dark-layout .nav-tabs .nav-item .nav-link.disabled, .dark-layout .nav-pills .nav-item .nav-link.disabled, .dark-layout .nav-tabs.nav-justified .nav-item .nav-link.disabled {
@@ -573,7 +581,7 @@ body.dark-layout {
 
 .dark-layout .nav-pills .nav-item .nav-link.active {
   color : #FFFFFF;
-  background-color : #0E8C9A;
+  background-color : #00b5dd;
 }
 
 .dark-layout .media-bordered .media:not(:first-child) {
@@ -642,7 +650,7 @@ body.dark-layout {
 }
 
 .dark-layout .list-group .list-group-item:not([class*='list-group-item-']).active, .dark-layout .list-group .list-group-item:not([class*='list-group-item-']):active, .dark-layout .list-group .list-group-item.list-group-item-action.active, .dark-layout .list-group .list-group-item.list-group-item-action:active {
-  background-color : #0E8C9A;
+  background-color : #00b5dd;
   color : #FFFFFF;
 }
 
@@ -841,7 +849,7 @@ body.dark-layout {
 }
 
 .dark-layout select.form-control:focus, .dark-layout .custom-select:focus {
-  border-color : #0E8C9A;
+  border-color : #00b5dd;
 }
 
 .dark-layout select.form-control:not([multiple='multiple']) {
@@ -876,7 +884,7 @@ body.dark-layout {
 }
 
 .dark-layout .input-group:focus-within .form-control, .dark-layout .input-group:focus-within .input-group-text {
-  border-color : #0E8C9A;
+  border-color : #00b5dd;
   box-shadow : none;
 }
 
@@ -992,7 +1000,7 @@ body.dark-layout {
 }
 
 .dark-layout .dataTables_wrapper .dt-buttons .buttons-copy:active, .dark-layout .dataTables_wrapper .dt-buttons .buttons-excel:active, .dark-layout .dataTables_wrapper .dt-buttons .buttons-pdf:active, .dark-layout .dataTables_wrapper .dt-buttons .buttons-print:active, .dark-layout .dataTables_wrapper .dt-buttons .btn-secondary:active, .dark-layout .dataTables_wrapper .dt-buttons [class*='buttons-']:active {
-  background-color : #0E8C9A !important;
+  background-color : #00b5dd !important;
   color : #FFFFFF;
 }
 
@@ -1089,7 +1097,7 @@ body.dark-layout {
 }
 
 .dark-layout .aggrid ::-webkit-scrollbar-thumb, .dark-layout .ag-header ::-webkit-scrollbar-thumb {
-  background : #0E8C9A;
+  background : #00b5dd;
 }
 
 .dark-layout .getting-started .clockCard p {
@@ -1614,7 +1622,7 @@ body.dark-layout {
 }
 
 .dark-layout .app-user-view .plan-card {
-  border-color : #0E8C9A !important;
+  border-color : #00b5dd !important;
 }
 
 .dark-layout .app-user-edit .form-control.error {
@@ -1697,7 +1705,7 @@ body.dark-layout {
 }
 
 .dark-layout .horizontal-layout .main-menu-content .navbar-nav > li.active .dropdown-menu li.active > a:hover {
-  color : #0E8C9A !important;
+  color : #00b5dd !important;
 }
 
 .dark-layout .horizontal-layout .main-menu-content .navbar-nav > li.active .dropdown-menu li.open.active > a {

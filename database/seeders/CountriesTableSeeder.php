@@ -10,7 +10,7 @@ class CountriesTableSeeder extends Seeder
     public function run(): void
     {
         $countries = [
-            ['name' => 'مصر',]
+            ['name' => 'تركيا',]
         ];
 
         foreach ($countries as $country) {

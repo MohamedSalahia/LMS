@@ -34,19 +34,13 @@
                                              alt="{{$course->title}}">
                                     </a>
                                 </div>
-                                <div class="thumb">
-                                    <a href="javascript:;">
-                                        <img src="{{Storage::url('uploads/' . $course->image)}}"
-                                             alt="{{$course->title}}">
-                                    </a>
-                                </div>
                                 <div class="info">
                                     <h4><a href="javascript:;">{{$course->title}}</a></h4>
                                     <p>
                                         {{$course->short_description}}
                                     </p>
                                     <div class="bottom-info">
-                                        <a href="https://wa.me/message/JXFPZTHGKASQF1">@lang('site.register_now')</a>
+                                        <a href="javascript:;">@lang('site.register_now')</a>
                                     </div>
                                 </div>
                             </div>

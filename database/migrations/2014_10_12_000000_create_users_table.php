@@ -50,7 +50,6 @@ class CreateUsersTable extends Migration
             $table->date('dob')->nullable();
             $table->enum('gender', [GenderEnum::MALE, GenderEnum::FEMALE])->index();
             $table->boolean('is_examiner')->default(false);
-            $table->boolean('is_teacher')->default(false);
             $table->rememberToken();
             $table->timestamp('registration_date')->nullable();
             $table->timestamps();

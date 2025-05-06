@@ -1,6 +1,6 @@
 @php use App\Enums\GenderEnum; @endphp
 @extends('layouts.admin.app')
-
+@section('title')@lang('centers.centers')@endsection
 @section('content')
 
     <div class="content-wrapper">

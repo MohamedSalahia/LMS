@@ -12,6 +12,9 @@ class SectionController extends Controller
 {
     public function __construct()
     {
+        //disable actions in demo mode
+        $this->middleware('demo_mode_middleware')->only(['store', 'update', 'destroy', 'bulkDelete', 'delete']);
+
         $this->middleware('permission:read_sections')->only(['index']);
         $this->middleware('permission:create_sections')->only(['create', 'store']);
         $this->middleware('permission:update_sections')->only(['edit', 'update']);

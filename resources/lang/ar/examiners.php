@@ -6,5 +6,5 @@ return [
     'return_to_original_admin' => 'العودة للمدير الأصلي',
     'is_examiner' => 'مختبر',
     'details' => 'التفاصيل',
-    'is_teacher' => 'معلم',
+    'examiners_count' => 'عدد المختبرين',
 ];

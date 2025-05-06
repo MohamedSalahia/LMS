@@ -9,6 +9,7 @@ use App\Models\Center;
 use App\Models\Country;
 use App\Models\Degree;
 use App\Models\Section;
+use App\Models\Teacher;
 use App\Models\User;
 use App\Services\TeacherService;
 use Illuminate\Support\Facades\DB;
@@ -18,6 +19,9 @@ class TeacherController extends Controller
 {
     public function __construct()
     {
+        //disable actions in demo mode
+        $this->middleware('demo_mode_middleware')->only(['store', 'update', 'destroy', 'bulkDelete', 'delete']);
+
         $this->middleware('permission:read_teachers')->only(['index']);
         $this->middleware('permission:create_teachers')->only(['create', 'store']);
         $this->middleware('permission:update_teachers')->only(['edit', 'update']);

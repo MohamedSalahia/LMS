@@ -37,6 +37,7 @@ class Kernel extends HttpKernel
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            \App\Http\Middleware\DemoMode::class,
         ],
 
         'api' => [
@@ -69,5 +70,7 @@ class Kernel extends HttpKernel
         'permission' => \Laratrust\Middleware\LaratrustPermission::class,
         'ability' => \Laratrust\Middleware\LaratrustAbility::class,
         'no_cache' => \App\Http\Middleware\NoCache::class,
+        'demo_mode' => \App\Http\Middleware\DemoMode::class,
+        'demo_mode_middleware' => \App\Http\Middleware\DemoModeMiddleware::class,
     ];
 }

@@ -12,6 +12,9 @@ class CourseController extends Controller
 {
     public function __construct()
     {
+        //disable actions in demo mode
+        $this->middleware('demo_mode_middleware')->only(['store', 'update', 'destroy', 'bulkDelete', 'delete']);
+
         $this->middleware('permission:read_courses')->only(['index']);
         $this->middleware('permission:create_courses')->only(['create', 'store']);
         $this->middleware('permission:update_courses')->only(['edit', 'update']);

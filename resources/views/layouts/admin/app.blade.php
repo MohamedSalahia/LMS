@@ -19,9 +19,9 @@
     <meta name="drop-images" content="@lang('site.drop_images')">
     <meta name="post-images-validation" content="@lang('posts.images_validation')">
     <meta name="loading" content="@lang('site.loading')">
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Laravel') }} - @yield('title')</title>
     {{--<link rel="apple-touch-icon" href="{{ asset('admin_assets/app-assets/images/ico/apple-icon-120.png') }}">--}}
-    <link rel="icon" type="image/x-icon" href="{{ asset('web_assets/img/favicon.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ Storage::url('uploads/' . setting('fav_icon')) }}">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600"
           rel="stylesheet">
 

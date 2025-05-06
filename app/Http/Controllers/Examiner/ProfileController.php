@@ -7,6 +7,13 @@ use App\Http\Requests\Teacher\ProfileRequest;
 
 class ProfileController extends Controller
 {
+    public function __construct()
+    {
+        //disable actions in demo mode
+        $this->middleware('demo_mode_middleware')->only(['update']);
+
+    }// end of __construct
+
     public function edit()
     {
         return view('examiner.profile.edit');

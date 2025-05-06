@@ -7,4 +7,5 @@ return [
     'short_description' => 'الوصف المختصر',
     'description' => 'الوصف',
     'image' => 'الصورة',
+    'courses_count' => 'عدد الدورات',
 ];

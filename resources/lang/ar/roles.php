@@ -10,4 +10,5 @@ return [
     'center_manager' => 'مدير المركز',
     'teacher' => 'المعلم',
     'student' => 'الطالب',
+    'roles_count' => 'عدد الأدوار',
 ];

@@ -10,7 +10,7 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner text-light carousel-zoom">
                 @foreach($slides as $slide)
-                    <div class="item {{($slide->id == 3 ? 'active' : '')}}">
+                    <div class="item {{($slide->id == 1 ? 'active' : '')}}">
                         <div class="slider-thumb bg-fixed"
                              style="background-image: url({{ Storage::url('uploads/' . $slide->image) }});"></div>
                         {{--<div class="box-table shadow dark">
@@ -83,7 +83,7 @@
                                         {{$course->short_description}}
                                     </p>
                                     <div class="bottom-info">
-                                        <a href="https://wa.me/message/JXFPZTHGKASQF1">@lang('site.register_now')</a>
+                                        <a href="javascript:;">@lang('site.register_now')</a>
                                     </div>
                                 </div>
                             </div>
@@ -101,14 +101,14 @@
     <div class="wcs-area bg-dark text-light">
         <div class="container-full">
             <div class="row">
-                <div class="col-md-8 thumb bg-cover"
-                     style="background-image: url({{'images/test.png'}});background-position: left;"></div>
-                <div class="col-md-4 content">
+                <div class="col-md-6 thumb bg-cover"
+                     style="background-image: url({{'images/section-why-us.jpg'}});background-position: left;"></div>
+                <div class="col-md-6 content">
                     <div class="site-heading text-left">
                         <h2>@lang('site.why_us_title')</h2>
-                        {{--<p>
+                        <p>
                             @lang('site.why_us_des')
-                        </p>--}}
+                        </p>
                     </div>
 
                     <!-- item -->
@@ -120,9 +120,9 @@
                             <h4>
                                 <a href="javascript:;">@lang('site.best_courses')</a>
                             </h4>
-                            {{--<p>
+                            <p>
                                 @lang('site.best_courses_des')
-                            </p>--}}
+                            </p>
                         </div>
                     </div>
                     <!-- item -->
@@ -136,9 +136,9 @@
                             <h4>
                                 <a href="javascript:;">@lang('site.best_books')</a>
                             </h4>
-                            {{--<p>
+                            <p>
                                 @lang('site.best_books_des')
-                            </p>--}}
+                            </p>
                         </div>
                     </div>
                     <!-- item -->
@@ -152,9 +152,9 @@
                             <h4>
                                 <a href="javascript:;">@lang('site.best_teachers')</a>
                             </h4>
-                            {{--<p>
+                            <p>
                                 @lang('site.best_teachers_des')
-                            </p>--}}
+                            </p>
                         </div>
                     </div>
                     <!-- item -->
@@ -168,9 +168,9 @@
                             <h4>
                                 <a href="javascript:;">@lang('site.interactive_lessons')</a>
                             </h4>
-                            {{--<p>
+                            <p>
                                 @lang('site.interactive_lessons_des')
-                            </p>--}}
+                            </p>
                         </div>
                     </div>
                     <!-- item -->
@@ -280,62 +280,12 @@
                 <div class="col-md-3 col-sm-6 item">
                     <div class="fun-fact">
                         <div class="icon">
-                            <i class="flaticon-diploma"></i>
+                            <i class="flaticon-education"></i>
                         </div>
                         <div class="info">
                             <span class="timer" data-to="{{setting('convoy')}}"
                                   data-speed="5000">{{setting('convoy')}}</span>
                             <span class="medium">@lang('site.convoy')</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-3 col-sm-6 item">
-                    <div class="fun-fact">
-                        <div class="icon">
-                            <i class="flaticon-diploma"></i>
-                        </div>
-                        <div class="info">
-                            <span class="timer" data-to="{{setting('pulpits_of_light')}}"
-                                  data-speed="5000">{{setting('pulpits_of_light')}}</span>
-                            <span class="medium">@lang('site.pulpits_of_light')</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 item">
-                    <div class="fun-fact">
-                        <div class="icon">
-                            <i class="flaticon-diploma"></i>
-                        </div>
-                        <div class="info">
-                            <span class="timer" data-to="{{setting('arabic_reading')}}"
-                                  data-speed="5000">{{setting('arabic_reading')}}</span>
-                            <span class="medium">@lang('site.arabic_reading')</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 item">
-                    <div class="fun-fact">
-                        <div class="icon">
-                            <i class="flaticon-diploma"></i>
-                        </div>
-                        <div class="info">
-                            <span class="timer" data-to="{{setting('holy_quran_teachers_cadres')}}"
-                                  data-speed="5000">{{setting('holy_quran_teachers_cadres')}}</span>
-                            <span class="medium">@lang('site.holy_quran_teachers_cadres')</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 item">
-                    <div class="fun-fact">
-                        <div class="icon">
-                            <i class="flaticon-diploma"></i>
-                        </div>
-                        <div class="info">
-                            <span class="timer" data-to="{{setting('licensed')}}"
-                                  data-speed="5000">{{setting('licensed')}}</span>
-                            <span class="medium">@lang('site.licensed')</span>
                         </div>
                     </div>
                 </div>
@@ -360,127 +310,63 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="clients-review-carousel owl-carousel owl-theme">
+
                         <div class="item">
-                            <div class="col-md-12 thumb">
+                            <div class="col-md-5 thumb">
                                 <img src="{{asset('web_assets/images/testimonial_1.png')}}" alt="Thumb">
                             </div>
-                            {{--<div class="col-md-7 info">
+                            <div class="col-md-7 info">
                                 <p>
                                     @lang('site.review1_comment')
                                 </p>
                                 <h4>@lang('site.review1')</h4>
-                            </div>--}}
+                            </div>
                         </div>
                         <div class="item">
-                            <div class="col-md-12 thumb">
-                                <img src="{{asset('web_assets/images/testimonial_2.png')}}" alt="Thumb">
+                            <div class="col-md-5 thumb">
+                                <img src="{{asset('web_assets/images/testimonial_1.png')}}" alt="Thumb">
                             </div>
-                            {{--<div class="col-md-7 info">
+                            <div class="col-md-7 info">
                                 <p>
                                     @lang('site.review1_comment')
                                 </p>
                                 <h4>@lang('site.review1')</h4>
-                            </div>--}}
+                            </div>
                         </div>
                         <div class="item">
-                            <div class="col-md-12 thumb">
-                                <img src="{{asset('web_assets/images/testimonial_3.png')}}" alt="Thumb">
+                            <div class="col-md-5 thumb">
+                                <img src="{{asset('web_assets/images/testimonial_1.png')}}" alt="Thumb">
                             </div>
-                            {{--<div class="col-md-7 info">
+                            <div class="col-md-7 info">
                                 <p>
                                     @lang('site.review1_comment')
                                 </p>
                                 <h4>@lang('site.review1')</h4>
-                            </div>--}}
+                            </div>
                         </div>
                         <div class="item">
-                            <div class="col-md-12 thumb">
-                                <img src="{{asset('web_assets/images/testimonial_4.png')}}" alt="Thumb">
+                            <div class="col-md-5 thumb">
+                                <img src="{{asset('web_assets/images/testimonial_1.png')}}" alt="Thumb">
                             </div>
-                            {{--<div class="col-md-7 info">
+                            <div class="col-md-7 info">
                                 <p>
                                     @lang('site.review1_comment')
                                 </p>
                                 <h4>@lang('site.review1')</h4>
-                            </div>--}}
+                            </div>
                         </div>
                         <div class="item">
-                            <div class="col-md-12 thumb">
-                                <img src="{{asset('web_assets/images/testimonial_5.png')}}" alt="Thumb">
+                            <div class="col-md-5 thumb">
+                                <img src="{{asset('web_assets/images/testimonial_1.png')}}" alt="Thumb">
                             </div>
-                            {{--<div class="col-md-7 info">
+                            <div class="col-md-7 info">
                                 <p>
                                     @lang('site.review1_comment')
                                 </p>
                                 <h4>@lang('site.review1')</h4>
-                            </div>--}}
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 thumb">
-                                <img src="{{asset('web_assets/images/testimonial_6.png')}}" alt="Thumb">
                             </div>
-                            {{--<div class="col-md-7 info">
-                                <p>
-                                    @lang('site.review1_comment')
-                                </p>
-                                <h4>@lang('site.review1')</h4>
-                            </div>--}}
                         </div>
-                        <div class="item">
-                            <div class="col-md-12 thumb">
-                                <img src="{{asset('web_assets/images/testimonial_7.png')}}" alt="Thumb">
-                            </div>
-                            {{--<div class="col-md-7 info">
-                                <p>
-                                    @lang('site.review1_comment')
-                                </p>
-                                <h4>@lang('site.review1')</h4>
-                            </div>--}}
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 thumb">
-                                <img src="{{asset('web_assets/images/testimonial_8.png')}}" alt="Thumb">
-                            </div>
-                            {{--<div class="col-md-7 info">
-                                <p>
-                                    @lang('site.review1_comment')
-                                </p>
-                                <h4>@lang('site.review1')</h4>
-                            </div>--}}
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 thumb">
-                                <img src="{{asset('web_assets/images/testimonial_9.png')}}" alt="Thumb">
-                            </div>
-                            {{--<div class="col-md-7 info">
-                                <p>
-                                    @lang('site.review1_comment')
-                                </p>
-                                <h4>@lang('site.review1')</h4>
-                            </div>--}}
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 thumb">
-                                <img src="{{asset('web_assets/images/testimonial_10.png')}}" alt="Thumb">
-                            </div>
-                            {{--<div class="col-md-7 info">
-                                <p>
-                                    @lang('site.review1_comment')
-                                </p>
-                                <h4>@lang('site.review1')</h4>
-                            </div>--}}
-                        </div>
-                        <div class="item">
-                            <div class="col-md-12 thumb">
-                                <img src="{{asset('web_assets/images/testimonial_11.png')}}" alt="Thumb">
-                            </div>
-                            {{--<div class="col-md-7 info">
-                                <p>
-                                    @lang('site.review1_comment')
-                                </p>
-                                <h4>@lang('site.review1')</h4>
-                            </div>--}}
-                        </div>
+
                         {{--<div class="item">
                             <div class="col-md-5 thumb">
                                 <img src="{{asset('web_assets/images/logo.jpeg')}}" alt="Thumb">

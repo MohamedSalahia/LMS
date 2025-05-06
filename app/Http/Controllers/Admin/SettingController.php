@@ -11,6 +11,9 @@ class SettingController extends Controller
 {
     public function __construct()
     {
+        //disable actions in demo mode
+        $this->middleware('demo_mode_middleware')->only(['storeGeneralData']);
+
         $this->middleware('permission:read_settings')->only(['index', 'socialLinks', 'socialLogin']);
 
     }// end of __construct

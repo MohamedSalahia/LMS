@@ -14,6 +14,9 @@ class ExamController extends Controller
 {
     public function __construct()
     {
+        //disable actions in demo mode
+        $this->middleware('demo_mode_middleware')->only(['store', 'update', 'destroy', 'bulkDelete', 'delete']);
+
         $this->middleware('permission:read_exams')->only(['index']);
         $this->middleware('permission:create_exams')->only(['create', 'store']);
         $this->middleware('permission:update_exams')->only(['edit', 'update']);

@@ -1,5 +1,5 @@
 @extends('layouts.admin.app')
-
+@section('title')@lang('degrees.degrees')@endsection
 @section('content')
 
     <div class="content-wrapper">
@@ -41,7 +41,7 @@
                             <form method="post" action="{{ route('admin.degrees.store') }}" class="ajax-form">
                                 @csrf
                                 @method('post')
-                                
+
                                 {{--name--}}
                                 <div class="form-group">
                                     <label>@lang('degrees.name') <span class="text-danger">*</span></label>

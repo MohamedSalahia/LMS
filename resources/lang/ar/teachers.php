@@ -8,4 +8,5 @@ return [
     'is_examiner' => 'مختبر',
     'examiner' => 'المختبر',
     'details' => 'التفاصيل',
+    'teachers_count' => 'عدد المعلمون',
 ];

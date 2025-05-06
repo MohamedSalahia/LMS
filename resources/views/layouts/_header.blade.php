@@ -122,7 +122,7 @@
                 </button>
 
                 <a class="navbar-brand" href="{{route('/')}}">
-                    <img src="{{ Storage::url('uploads/' . setting('logo')) }}" class="logo" alt="Logo">
+                    <img src="{{ Storage::url('uploads/' . setting('logo')) }}" class="logo" alt="Logo" width="">
                 </a>
             </div>
             <!-- End Header Navigation -->

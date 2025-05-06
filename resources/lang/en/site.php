@@ -5,13 +5,14 @@ return [
     'logout' => 'Logout',
     'login' => 'Login',
     'serial' => 'Serial',
-
+    'statistics' => 'statistics',
     'add' => 'Add',
     'edit' => 'Edit',
     'delete' => 'Delete',
     'action' => 'Action',
     'search' => 'Search',
     'no_data_found' => 'Sorry no data found',
+    'editing_is_disabled' => 'Not working in the demo version',
     'added_successfully' => 'Record added successfully',
     'updated_successfully' => 'Record updated successfully',
     'deleted_successfully' => 'Record deleted successfully',
@@ -23,7 +24,6 @@ return [
     'create' => 'Create',
     'read' => 'Read',
     'update' => 'Update',
-    'delete' => 'Delete',
     'created_at' => 'Created at',
     'all' => 'All',
     'close' => 'Close',
@@ -32,5 +32,9 @@ return [
     'show' => 'Show',
     'en' => 'English',
     'ar' => 'Arabic',
+    'webseity' => 'Webseity',
+    'web_home' => 'visit site',
+    'see_all' => 'see all',
+    'developer_by' => 'developer by',
 
 ];

@@ -1,6 +1,6 @@
-@php use App\Enums\GenderEnum;use App\Enums\UserTypeEnum; @endphp
+@php use App\Enums\GenderEnum; @endphp
 @extends('layouts.admin.app')
-
+@section('title')@lang('examiners.examiners')@endsection
 @section('content')
 
     <div class="content-wrapper">
@@ -179,15 +179,6 @@
                                     <label>@lang('users.address') <span class="text-danger">*</span></label>
                                     <input type="text" name="address" class="form-control"
                                            value="{{ old('address', $examiner->address) }}" required>
-                                </div>
-
-                                {{--is_teacher--}}
-                                <div class="custom-control custom-checkbox form-group">
-                                    <input type="checkbox" name="is_teacher" class="custom-control-input"
-                                           id="is-teacher"
-                                           value="1" {{ $examiner->hasRole(UserTypeEnum::TEACHER) ? 'checked' : '' }}>
-                                    <label class="custom-control-label"
-                                           for="is-teacher">@lang('examiners.is_teacher')</label>
                                 </div>
 
                                 <div class="form-group">

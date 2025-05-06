@@ -4,9 +4,9 @@
         <ul class="nav navbar-nav flex-row">
             <li class="nav-item mr-auto"><a class="navbar-brand" wire:navigate href="{{ route('admin.home') }}">
                     <span class="brand-logo">
-                    <img src="{{ asset('web_assets/images/logo.jpeg') }}" alt="">
+                    <img src="{{ Storage::url('uploads/' . setting('logo')) }}" alt="">
                     </span>
-                    <h2 class="brand-text">@lang('site.mirage')</h2>
+                    <h2 class="brand-text">@lang('site.webseity')</h2>
                 </a>
             </li>
             <li class="nav-item nav-toggle">

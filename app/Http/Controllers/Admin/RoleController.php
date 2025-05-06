@@ -12,6 +12,9 @@ class RoleController extends Controller
 {
     public function __construct()
     {
+        //disable actions in demo mode
+        $this->middleware('demo_mode_middleware')->only(['store', 'update', 'destroy', 'bulkDelete', 'delete']);
+
         $this->middleware('permission:read_roles')->only(['index']);
         $this->middleware('permission:create_roles')->only(['create', 'store']);
         $this->middleware('permission:update_roles')->only(['edit', 'update']);
@@ -27,7 +30,7 @@ class RoleController extends Controller
 
     public function data()
     {
-        $roles = Role::whereNotIn('name', [
+        $roles = Role::whereIn('name', [
             UserTypeEnum::SUPER_ADMIN,
             UserTypeEnum::ADMIN,
             UserTypeEnum::TEACHER,

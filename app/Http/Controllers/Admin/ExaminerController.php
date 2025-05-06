@@ -10,7 +10,6 @@ use App\Models\Country;
 use App\Models\Degree;
 use App\Models\Section;
 use App\Models\User;
-use App\Services\ExaminerService;
 use Illuminate\Support\Facades\DB;
 use Yajra\DataTables\DataTables;
 
@@ -18,6 +17,9 @@ class ExaminerController extends Controller
 {
     public function __construct()
     {
+        //disable actions in demo mode
+        $this->middleware('demo_mode_middleware')->only(['store', 'update', 'destroy', 'bulkDelete', 'delete']);
+
         $this->middleware('permission:read_examiners')->only(['index']);
         $this->middleware('permission:create_examiners')->only(['create', 'store']);
         $this->middleware('permission:update_examiners')->only(['edit', 'update']);
@@ -131,7 +133,7 @@ class ExaminerController extends Controller
 
     }// end of edit
 
-    public function update(ExaminerRequest $request, User $examiner, ExaminerService $examinerService)
+    public function update(ExaminerRequest $request, User $examiner)
     {
         $examiner->update($request->validated());
 

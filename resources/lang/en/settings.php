@@ -2,7 +2,6 @@
 
 return [
     'settings' => 'Settings',
-    'social_links' => 'Social links',
     'general' => 'General',
     'social_links' => 'Social links',
     'mobile_links' => 'Mobile links',

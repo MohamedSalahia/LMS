@@ -17,6 +17,7 @@
     <meta name="no-data-found" content="@lang('site.no_data_found')">
     <meta name="drop-images-text" content="@lang('site.drop_images')">
     <meta name="delete-text" content="@lang('site.delete')">
+    <link rel="icon" type="image/x-icon" href="{{ Storage::url('uploads/' . setting('fav_icon')) }}">
 
     <title>{{ setting('title') }}</title>
 
@@ -154,7 +155,7 @@
                                 <a href="{{route('/')}}" class="app-brand-link">
                                     <span class="app-brand-logo demo">
 
-                                        <img src="{{asset('images/login_logo.jpg')}}" alt="" width="150">
+                                        <img src="{{--{{asset('images/login_logo.jpg')}}--}}{{ Storage::url('uploads/' . setting('logo')) }}" alt="" width="150">
 
                                     </span>
                                     {{--<span class="app-brand-text demo text-heading fw-bold">معراج للتعليم والتنمية</span>--}}
@@ -215,26 +216,34 @@
                             </div>
 
                             <div class="d-flex justify-content-center">
-                                <a href="https://www.facebook.com/profile.php?id=61554217954789&mibextid=ZbWKwL"
+                                <a href="https://www.facebook.com/profile.php?id=100006448386433"
                                    class="btn btn-sm btn-icon rounded-pill btn-text-facebook me-1_5 waves-effect waves-light">
                                     <i class="fab fa-facebook fa-2x"></i>
                                 </a>
 
-                                <a href="https://www.instagram.com/mirac200012?igsh=cnFwaGg0dnU2Ynk4"
+                                <a href="https://www.instagram.com/mohammed_salahia/"
                                    class="btn btn-sm btn-icon rounded-pill btn-text-twitter me-1_5 waves-effect waves-light">
                                     <i class="fab fa-instagram fa-2x"></i>
                                 </a>
 
-                                <a href="https://www.youtube.com/@miracdernegi"
+                                <a href="https://www.youtube.com/@mohamadSalahia"
                                    class="btn btn-sm btn-icon rounded-pill btn-text-github me-1_5 waves-effect waves-light">
                                     <i class="fab fa-youtube fa-2x"></i>
                                 </a>
 
-                                <a href="https://x.com/MnstAlt86739?t=c2L7xIzCWlpWJrFImjvnFg&s=09"
+                                <a href="https://www.tiktok.com/@mohamad_salahia"
                                    class="btn btn-sm btn-icon rounded-pill btn-text-google-plus waves-effect waves-light">
-                                    <i class="fab fa-twitter fa-2x"></i>
+                                    <i class="fab fa-tiktok fa-2x"></i>
                                 </a>
-                                <a href="https://wa.me/message/JXFPZTHGKASQF1"
+                                <a href="https://www.linkedin.com/in/mohammed-salahia/"
+                                   class="btn btn-sm btn-icon rounded-pill btn-text-google-plus waves-effect waves-light">
+                                    <i class="fab fa-linkedin fa-2x"></i>
+                                </a>
+                                <a href="https://github.com/MohamedSalahia"
+                                   class="btn btn-sm btn-icon rounded-pill btn-text-google-plus waves-effect waves-light">
+                                    <i class="fab fa-github fa-2x"></i>
+                                </a>
+                                <a href="https://wa.me/905342813050"
                                    class="btn btn-sm btn-icon rounded-pill btn-text-google-plus waves-effect waves-light">
                                     <i class="fab fa-whatsapp fa-2x"></i>
                                 </a>

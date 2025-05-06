@@ -44,7 +44,6 @@ class ExaminerRequest extends FormRequest
             'address' => 'required',
             'type' => 'required',
             'is_examiner' => 'required',
-            'is_teacher' => 'sometimes|nullable',
         ];
 
         if (in_array($this->method(), ['PUT', 'PATCH'])) {

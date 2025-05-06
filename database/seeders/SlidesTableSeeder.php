@@ -11,14 +11,14 @@ class SlidesTableSeeder extends Seeder
     {
         $slides = [
             [
-                'upper_title' => 'منصة معراج التعليمية',
-                'title' => 'عن النبي صلى الله عليه وسلم قال : (خيركم من تعلم القرآن وعلمه)',
+                'upper_title' => 'ويبسايتي',
+                'title' => 'ويبسايتي',
                 'image' => 'slide1.jpg',
                 'link' => '#',
             ],
             [
-                'upper_title' => 'منصة معراج التعليمية',
-                'title' => 'قال الله تعالى : (وَرَتِّلِ الْقُرْآنَ تَرْتِيلا)',
+                'upper_title' => 'ويبسايتي',
+                'title' => 'ويبسايتي',
                 'image' => 'slide2.jpg',
                 'link' => '#',
             ],

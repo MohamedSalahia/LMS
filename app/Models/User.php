@@ -19,7 +19,7 @@ class User extends Authenticatable
         'country_id', 'governorate_id', 'degree_id', 'student_center_id', 'student_section_id',
         'student_project_id', 'first_name', 'second_name', 'nickname', 'email', 'mobile', 'email_verified_at', 'password',
         'type', 'image', 'locale', 'address', 'reading_type',
-        'dob', 'gender', 'is_examiner', 'is_teacher', 'registration_date',
+        'dob', 'gender', 'is_examiner', 'registration_date',
     ];
 
     protected $appends = ['image_path'];
@@ -376,12 +376,6 @@ class User extends Authenticatable
         return $this->is_examiner;
 
     }// end of isExaminer
-
-    public function isTeacher()
-    {
-        return $this->is_teacher;
-
-    }// end of isTeacher
 
     protected static function booted()
     {

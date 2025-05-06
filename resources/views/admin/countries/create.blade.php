@@ -1,5 +1,5 @@
 @extends('layouts.admin.app')
-
+@section('title')@lang('countries.countries')@endsection
 @section('content')
 
     <div class="content-wrapper">
@@ -47,7 +47,7 @@
                                     <label>@lang('countries.name') <span class="text-danger">*</span></label>
                                     <input type="text" name="name" class="form-control" value="" autofocus required>
                                 </div>
-                                
+
                                 <div class="form-group">
                                     <button type="submit" class="btn btn-primary"><i data-feather="plus"></i> @lang('site.create')</button>
                                 </div>

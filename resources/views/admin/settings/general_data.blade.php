@@ -1,5 +1,5 @@
 @extends('layouts.admin.app')
-
+@section('title')@lang('settings.general')@endsection
 @section('content')
 
     <div class="content-wrapper">

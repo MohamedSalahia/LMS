@@ -6,4 +6,5 @@ return [
     'name' => 'الاسم',
     'number_of_pages' => 'عدد الصفحات',
     'image' => 'الصورة',
+    'books_count' => 'عدد الكتب',
 ];

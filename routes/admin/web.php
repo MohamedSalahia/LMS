@@ -27,7 +27,7 @@ use App\Models\User;
 use Illuminate\Support\Facades\Route;
 
 
-Route::middleware(['auth', 'role:admin|super_admin', 'localization', 'no_cache'])->group(function () {
+Route::middleware(['auth', 'role:admin|super_admin', 'localization', 'no_cache', 'demo_mode'])->group(function () {
 
     Route::name('admin.')->prefix('admin')->group(function () {
 

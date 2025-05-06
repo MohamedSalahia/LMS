@@ -12,4 +12,5 @@ return [
     'students_count' => 'عدد الطلاب',
     'exams_count' => 'عدد الاختبارات',
     'lectures_count' => 'عدد المحاضرات',
+    'centers_count' => 'عدد المراكز',
 ];

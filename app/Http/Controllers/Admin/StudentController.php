@@ -16,6 +16,9 @@ class StudentController extends Controller
 {
     public function __construct()
     {
+        //disable actions in demo mode
+        $this->middleware('demo_mode_middleware')->only(['store', 'update', 'destroy', 'bulkDelete', 'delete']);
+
         $this->middleware('permission:read_students')->only(['index']);
         $this->middleware('permission:create_students')->only(['create', 'store']);
         $this->middleware('permission:update_students')->only(['edit', 'update']);

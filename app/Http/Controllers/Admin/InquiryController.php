@@ -11,6 +11,9 @@ class InquiryController extends Controller
 {
     public function __construct()
     {
+        //disable actions in demo mode
+        $this->middleware('demo_mode_middleware')->only(['store', 'update', 'destroy', 'bulkDelete', 'delete']);
+
         $this->middleware('permission:read_inquiries')->only(['index']);
         $this->middleware('permission:delete_inquiries')->only(['delete', 'bulk_delete']);
 

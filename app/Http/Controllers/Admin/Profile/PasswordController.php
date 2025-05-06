@@ -8,6 +8,15 @@ use Illuminate\Http\Request;
 
 class PasswordController extends Controller
 {
+    public function __construct()
+    {
+        //disable actions in demo mode
+        $this->middleware('demo_mode_middleware')->only(['update']);
+
+        $this->middleware('permission:read_settings')->only(['index', 'socialLinks', 'socialLogin']);
+
+    }// end of __construct
+
     public function edit()
     {
         return view('admin.profile.password.edit');
