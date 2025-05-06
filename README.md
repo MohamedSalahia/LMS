@@ -39,7 +39,7 @@ php artisan serve
 
 You can explore the demo version of the project by clicking the link below:
 
-[View Demo](https://lms.webseity.com/)
+[View Demo](https://lms.webseity.com/login)
 
 ### Login Credentials:
 - **Email**: admin@webseity.com
